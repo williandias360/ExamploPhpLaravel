@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Login</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,400,700,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('/assets/css/website.css') }}" />
 </head>
 
@@ -14,19 +15,10 @@
         <div class="login-wrapper">
             <form>
                 <h1>Faça o seu login</h1>
-                <p>Mussum Ipsum, cacilds vidis litro abertis. Mé faiz elementum girarzis, nisi eros vermeio. Interagi no mé, 
-                    cursus quis, vehicula ac nisi. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis. 
-                    Paisis, filhis, espiritis santis.</p>
-                <label>
-                    <span></span>
-                    <input type="text" name="email" placeholder="">
-                </label>
-                <label>
-                    <span></span>
-                    <input type="password" name="password" placeholder="">
-                </label>
-
-                <button></button>
+                <p>Mussum Ipsum, cacilds vidis litro abertis. Mé faiz elementum girarzis</p>
+                <input class="mt-20 input" type="email" name="email" placeholder="E-mail" required>
+                <input class="input" type="password" name="password" placeholder="Senha" required>
+                <button class="input button-primary">Login</button>
             </form>
         </div>
     </div>
