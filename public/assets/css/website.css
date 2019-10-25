@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box
+}
+
+body {
+    padding: 0;
+    margin: 0
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.login-background {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: #22253b;
+    justify-content: center;
+    align-items: center;
+    align-content: center
+}
+
+.login-wrapper {
+    display: block;
+    background: #2b2f45;
+    width: 400px;
+    height: 400px;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+}
+
+.login-wrapper h1 {
+    font: 100 2.5rem/10px "Raleway", sans-serif;
+    color: #fff;
+}
+
+.login-wrapper p {
+    font: 400 .9rem "Raleway", sans-serif;
+    color: #dedede;
+}
+
+.input {
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    margin-bottom: 15px;
+    background: rgba(0, 0, 0, 0.25);
+    color: #fff;
+    font: 400 1.25rem "Raleway", sans-serif;
+    padding: 0 35px;
+}
+
+.button-primary {
+    float: right;
+    width: auto;
+    font: 800 1rem "Raleway", sans-serif;
+    text-transform: uppercase;
+    background: #ff3859;
+}
+
+/*
+*DESCRIPTION: HEADER
+*===============================================================*/
+
+
